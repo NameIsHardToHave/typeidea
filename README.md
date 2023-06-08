@@ -1,2 +1,2 @@
 # typeidea
-A try
+A beginner's first attempt to create a depository
