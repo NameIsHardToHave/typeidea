@@ -1,0 +1,2 @@
+# typeidea
+A try
