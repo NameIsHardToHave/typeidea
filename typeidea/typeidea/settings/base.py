@@ -30,7 +30,12 @@ ALLOWED_HOSTS = []
 
 # Application definition
 
+#Django根据顺序查找对应资源, 如果资源路径和名称相同, 那么前面的会覆盖掉后面的
 INSTALLED_APPS = [
+    'blog',
+    'config',
+    'comment',
+
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
@@ -103,9 +108,9 @@ AUTH_PASSWORD_VALIDATORS = [
 # Internationalization
 # https://docs.djangoproject.com/en/4.2/topics/i18n/
 
-LANGUAGE_CODE = 'zh-hans'
+LANGUAGE_CODE = 'zh-hans'       #在这里修改语言
 
-TIME_ZONE = 'Asia/Shanghai'
+TIME_ZONE = 'Asia/Shanghai'     #在这里修改时区
 
 USE_I18N = True
 
